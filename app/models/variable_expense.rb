@@ -1,0 +1,2 @@
+class VariableExpense < ApplicationRecord
+end
