@@ -1,2 +1,12 @@
-json.extract! variable_expense, :id, :created_at, :updated_at
-json.url variable_expense_url(variable_expense, format: :json)
+json.id variable_expense.id
+json.groceries variable_expense.groceries
+json.gas variable_expense.gas
+json.eating_out variable_expense.eating_out
+json.personal_care variable_expense.personal_care
+json.utilities variable_expense.utilities
+json.entertainment variable_expense.entertainment
+json.auto_maintenance variable_expense.auto_maintenance
+json.property_maintenance variable_expense.property_maintenance
+json.other variable_expense.other
+json.created_at variable_expense.created_at
+json.updated_at variable_expense.updated_at
