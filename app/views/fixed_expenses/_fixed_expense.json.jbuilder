@@ -13,5 +13,5 @@ json.student_loans fixed_expense.student_loans
 json.cell_phone fixed_expense.cell_phone
 json.internet fixed_expense.internet
 json.other fixed_expense.other
-json.created_at fixed_expense.other
-json.updated_at fixed_expense.other
+json.created_at fixed_expense.created_at
+json.updated_at fixed_expense.updated_at
