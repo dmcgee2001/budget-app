@@ -1,2 +1,17 @@
-json.extract! fixed_expense, :id, :created_at, :updated_at
-json.url fixed_expense_url(fixed_expense, format: :json)
+json.id fixed_expense.id
+json.mortgage fixed_expense.mortgage
+json.car_payment fixed_expense.car_payment
+json.auto_insurance fixed_expense.auto_insurance
+json.health_insurance fixed_expense.health_insurance
+json.life_insurance fixed_expense.life_insurance
+json.home_insurance fixed_expense.home_insurance
+json.renters_insurance fixed_expense.renters_insurance
+json.dental_insurance fixed_expense.dental_insurance
+json.other_insurance fixed_expense.other_insurance
+json.subscriptions fixed_expense.subscriptions
+json.student_loans fixed_expense.student_loans
+json.cell_phone fixed_expense.cell_phone
+json.internet fixed_expense.internet
+json.other fixed_expense.other
+json.created_at fixed_expense.other
+json.updated_at fixed_expense.other
