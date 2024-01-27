@@ -1,2 +1,10 @@
-json.extract! income, :id, :created_at, :updated_at
-json.url income_url(income, format: :json)
+json.id income.id
+json.monthly_salary income.monthly_salary
+json.biweekly_salary income.biweekly_salary
+json.weekly_salary income.weekly_salary
+json.rental_properties income.rental_properties
+json.car_rental income.car_rental
+json.item_sales income.item_sales
+json.other income.other
+json.created_at income.created_at
+json.updated_at income.updated_at
