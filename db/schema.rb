@@ -10,13 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_01_27_223227) do
+ActiveRecord::Schema[7.0].define(version: 2024_01_27_224535) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "fixed_expenses", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.decimal "mortgage", precision: 6, scale: 2
+    t.decimal "car_payment", precision: 6, scale: 2
+    t.decimal "auto_insurance", precision: 6, scale: 2
+    t.decimal "health_insurance", precision: 6, scale: 2
+    t.decimal "life_insurance", precision: 6, scale: 2
+    t.decimal "home_insurance", precision: 6, scale: 2
+    t.decimal "renters_insurance", precision: 6, scale: 2
+    t.decimal "dental_insurance", precision: 6, scale: 2
+    t.decimal "other_insurance", precision: 6, scale: 2
+    t.decimal "subscriptions", precision: 6, scale: 2
+    t.decimal "student_loans", precision: 6, scale: 2
+    t.decimal "cell_phone", precision: 6, scale: 2
+    t.decimal "internet", precision: 6, scale: 2
+    t.decimal "other", precision: 6, scale: 2
   end
 
   create_table "incomes", force: :cascade do |t|
