@@ -14,7 +14,7 @@ class FixedExpensesController < ApplicationController
     @fixed_expense = FixedExpense.new(fixed_expense_params)
 
     if @fixed_expense.save
-      redirect_to @fixed_expense, notice: "Fixed expense was successfully created."
+      render :show
     else
       render json: { errors: @fixed_expense.errors.full_messages }, status: :unprocessable_entity
     end
