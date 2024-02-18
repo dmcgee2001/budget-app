@@ -41,6 +41,7 @@ gem "jwt"
 gem "rack-cors"
 gem "seed_dump"
 gem "rails-controller-testing"
+gem "populator"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
