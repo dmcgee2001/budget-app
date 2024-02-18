@@ -34,3 +34,6 @@ FixedExpense.create!([
   {mortgage: "1745.0", car_payment: "383.0", auto_insurance: "116.0", health_insurance: "79.0", life_insurance: "29.0", home_insurance: "84.0", renters_insurance: "74.0", dental_insurance: "37.0", other_insurance: "70.0", subscriptions: "50.0", student_loans: "371.0", cell_phone: "77.0", internet: "51.0", other: "468.0"},
   {mortgage: "3536.0", car_payment: "415.0", auto_insurance: "174.0", health_insurance: "128.0", life_insurance: "23.0", home_insurance: "83.0", renters_insurance: "32.0", dental_insurance: "67.0", other_insurance: "69.0", subscriptions: "48.0", student_loans: "497.0", cell_phone: "65.0", internet: "88.0", other: "311.0"}
 ])
+User.create!([
+  {name: "Test", email: "test@test.com", password: "password", password_confirmation: "password"}
+])
