@@ -11,16 +11,16 @@ VariableExpense.create!([
   {groceries: "748.0", gas: "132.0", eating_out: "68.0", personal_care: "79.0", utilities: "364.0", entertainment: "153.0", auto_maintenance: "142.0", property_maintenance: "180.0", other: "481.0"}
 ])
 Income.create!([
-  {monthly_salary: "6643.0", biweekly_salary: "2980.0", weekly_salary: "988.0", rental_properties: "859.0", car_rental: "619.0", item_sales: "499.0", other: "658.0"},
-  {monthly_salary: "5578.0", biweekly_salary: "3893.0", weekly_salary: "1466.0", rental_properties: "963.0", car_rental: "889.0", item_sales: "477.0", other: "347.0"},
-  {monthly_salary: "7543.0", biweekly_salary: "4076.0", weekly_salary: "931.0", rental_properties: "1913.0", car_rental: "467.0", item_sales: "877.0", other: "391.0"},
-  {monthly_salary: "8592.0", biweekly_salary: "2594.0", weekly_salary: "790.0", rental_properties: "1454.0", car_rental: "318.0", item_sales: "658.0", other: "872.0"},
-  {monthly_salary: "3984.0", biweekly_salary: "3381.0", weekly_salary: "1030.0", rental_properties: "761.0", car_rental: "219.0", item_sales: "235.0", other: "646.0"},
-  {monthly_salary: "5421.0", biweekly_salary: "2483.0", weekly_salary: "1002.0", rental_properties: "1475.0", car_rental: "740.0", item_sales: "646.0", other: "158.0"},
-  {monthly_salary: "4999.0", biweekly_salary: "4646.0", weekly_salary: "2340.0", rental_properties: "1821.0", car_rental: "348.0", item_sales: "242.0", other: "321.0"},
-  {monthly_salary: "7475.0", biweekly_salary: "3788.0", weekly_salary: "2139.0", rental_properties: "931.0", car_rental: "304.0", item_sales: "155.0", other: "879.0"},
-  {monthly_salary: "3941.0", biweekly_salary: "1735.0", weekly_salary: "1912.0", rental_properties: "1033.0", car_rental: "649.0", item_sales: "330.0", other: "992.0"},
-  {monthly_salary: "7051.0", biweekly_salary: "3902.0", weekly_salary: "1383.0", rental_properties: "1378.0", car_rental: "713.0", item_sales: "557.0", other: "216.0"}
+  {monthly_salary: "0.0", biweekly_salary: "2980.0", weekly_salary: "0.0", rental_properties: "859.0", car_rental: "619.0", item_sales: "499.0", other: "658.0"},
+  {monthly_salary: "0.0", biweekly_salary: "2594.0", weekly_salary: "0.0", rental_properties: "1454.0", car_rental: "318.0", item_sales: "658.0", other: "872.0"},
+  {monthly_salary: "0.0", biweekly_salary: "4646.0", weekly_salary: "0.0", rental_properties: "1821.0", car_rental: "348.0", item_sales: "242.0", other: "321.0"},
+  {monthly_salary: "7543.0", biweekly_salary: "0.0", weekly_salary: "0.0", rental_properties: "1913.0", car_rental: "467.0", item_sales: "877.0", other: "391.0"},
+  {monthly_salary: "5421.0", biweekly_salary: "0.0", weekly_salary: "0.0", rental_properties: "1475.0", car_rental: "740.0", item_sales: "646.0", other: "158.0"},
+  {monthly_salary: "3941.0", biweekly_salary: "0.0", weekly_salary: "0.0", rental_properties: "1033.0", car_rental: "649.0", item_sales: "330.0", other: "992.0"},
+  {monthly_salary: "0.0", biweekly_salary: "0.0", weekly_salary: "1466.0", rental_properties: "963.0", car_rental: "889.0", item_sales: "477.0", other: "347.0"},
+  {monthly_salary: "0.0", biweekly_salary: "0.0", weekly_salary: "1030.0", rental_properties: "761.0", car_rental: "219.0", item_sales: "235.0", other: "646.0"},
+  {monthly_salary: "0.0", biweekly_salary: "0.0", weekly_salary: "2139.0", rental_properties: "931.0", car_rental: "304.0", item_sales: "155.0", other: "879.0"},
+  {monthly_salary: "0.0", biweekly_salary: "0.0", weekly_salary: "1383.0", rental_properties: "1378.0", car_rental: "713.0", item_sales: "557.0", other: "216.0"}
 ])
 FixedExpense.create!([
   {mortgage: "2397.0", car_payment: "143.0", auto_insurance: "120.0", health_insurance: "139.0", life_insurance: "32.0", home_insurance: "92.0", renters_insurance: "63.0", dental_insurance: "59.0", other_insurance: "60.0", subscriptions: "37.0", student_loans: "950.0", cell_phone: "85.0", internet: "56.0", other: "54.0"},
